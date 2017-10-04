@@ -1,0 +1,63 @@
+html, body{
+	font-family: arial, sans-serif;
+	margin: 0;
+}
+/*<header>
+	<img src="https://i1.wp.com/img11.deviantart.net/fcd9/i/2010/182/b/9/aang_the_last_airbender_by_cigsace.png?resize=498%2C413" title="Avatar Aang">
+	<h1>Avatar Aang</h1>
+</header>*/
+header{
+	background-color: #4286f4;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+header img{
+	border-radius: 160px;
+	width: 300px;
+	border: 10px solid black;
+}
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px ;
+}
+
+img.big-image{
+	max-width: 100%;
+
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic; 
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #E6E6E6;
+
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
